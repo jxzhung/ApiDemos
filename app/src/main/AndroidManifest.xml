@@ -59,6 +59,7 @@
              to be installed if it doesn't exist. -->
         <uses-library android:name="com.example.will.never.exist" android:required="false" />
 
+        <!-- 主Activity -->
         <activity android:name="com.example.android.apis.ApiDemos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

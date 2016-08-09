@@ -26,6 +26,6 @@ public class Marquee extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        setContentView(R.layout.marquee);
+        setContentView(R.layout.marquee); // fixme 在genymotion4.1.1上无跑马灯效果
     }
 }
